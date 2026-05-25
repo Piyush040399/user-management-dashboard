@@ -19,9 +19,9 @@ import type { UserFormData } from "../utils/validation";
 import { toast } from "react-toastify";
 
 import { useDebounce } from "../hooks/useDebounce";
-import UserTable from "../components/users/userTable";
-import UserForm from "../components/users/userForm";
-import DeleteModal from "../components/users/deleteModal";
+import UserTable from "../components/users/UserTable";
+import UserForm from "../components/users/UserForm";
+import DeleteModal from "../components/users/DeleteModal";
 
 const Dashboard = () => {
 
